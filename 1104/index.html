@@ -10,30 +10,175 @@
     <meta name="keywords" content="mmonlineok" />
     <meta name="description" content="The most convenient and efficient app" />
     <title>mmonlineok</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/style/reset.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/style/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/style/main.css"
+    />
   </head>
   <script>
-    !function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.install=t():e.install=t()}(window,(function(){return function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=0)}([function(e,t,n){"use strict";var r=this&&this.__spreadArray||function(e,t,n){if(n||2===arguments.length)for(var r,o=0,i=t.length;o<i;o++)!r&&o in t||(r||(r=Array.prototype.slice.call(t,0,o)),r[o]=t[o]);return e.concat(r||Array.prototype.slice.call(t))};!function(e){var t=window;t.KwaiAnalyticsObject=e,t[e]=t[e]||[];var n=t[e];n.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"];var o=function(e,t){e[t]=function(){var n=Array.from(arguments),o=r([t],n,!0);e.push(o)}};n.methods.forEach((function(e){o(n,e)})),n.instance=function(e){var t=n._i[e]||[];return n.methods.forEach((function(e){o(t,e)})),t},n.load=function(t,r){n._i=n._i||{},n._i[t]=[],n._i[t]._u="https://s1.kwai.net/kos/s101/nlav11187/pixel/events.js",n._t=n._t||{},n._t[t]=+new Date,n._o=n._o||{},n._o[t]=r||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src="https://s1.kwai.net/kos/s101/nlav11187/pixel/events.js?sdkid="+t+"&lib="+e;var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(o,i)}}("kwaiq")}])}));
-    </script>
-    <script>
-    kwaiq.load('417361059625580132');
-    kwaiq.page();
-    const onDownloadClick = ()=>{
-      console.log('track');
-      kwaiq.track("contentView", {
-      content_type: "product",
+    !(function (e, t) {
+      "object" == typeof exports && "object" == typeof module
+        ? (module.exports = t())
+        : "function" == typeof define && define.amd
+        ? define([], t)
+        : "object" == typeof exports
+        ? (exports.install = t())
+        : (e.install = t());
+    })(window, function () {
+      return (function (e) {
+        var t = {};
+        function n(r) {
+          if (t[r]) return t[r].exports;
+          var o = (t[r] = { i: r, l: !1, exports: {} });
+          return e[r].call(o.exports, o, o.exports, n), (o.l = !0), o.exports;
+        }
+        return (
+          (n.m = e),
+          (n.c = t),
+          (n.d = function (e, t, r) {
+            n.o(e, t) ||
+              Object.defineProperty(e, t, { enumerable: !0, get: r });
+          }),
+          (n.r = function (e) {
+            "undefined" != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+              Object.defineProperty(e, "__esModule", { value: !0 });
+          }),
+          (n.t = function (e, t) {
+            if ((1 & t && (e = n(e)), 8 & t)) return e;
+            if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+            var r = Object.create(null);
+            if (
+              (n.r(r),
+              Object.defineProperty(r, "default", { enumerable: !0, value: e }),
+              2 & t && "string" != typeof e)
+            )
+              for (var o in e)
+                n.d(
+                  r,
+                  o,
+                  function (t) {
+                    return e[t];
+                  }.bind(null, o)
+                );
+            return r;
+          }),
+          (n.n = function (e) {
+            var t =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return n.d(t, "a", t), t;
+          }),
+          (n.o = function (e, t) {
+            return Object.prototype.hasOwnProperty.call(e, t);
+          }),
+          (n.p = ""),
+          n((n.s = 0))
+        );
+      })([
+        function (e, t, n) {
+          "use strict";
+          var r =
+            (this && this.__spreadArray) ||
+            function (e, t, n) {
+              if (n || 2 === arguments.length)
+                for (var r, o = 0, i = t.length; o < i; o++)
+                  (!r && o in t) ||
+                    (r || (r = Array.prototype.slice.call(t, 0, o)),
+                    (r[o] = t[o]));
+              return e.concat(r || Array.prototype.slice.call(t));
+            };
+          !(function (e) {
+            var t = window;
+            (t.KwaiAnalyticsObject = e), (t[e] = t[e] || []);
+            var n = t[e];
+            n.methods = [
+              "page",
+              "track",
+              "identify",
+              "instances",
+              "debug",
+              "on",
+              "off",
+              "once",
+              "ready",
+              "alias",
+              "group",
+              "enableCookie",
+              "disableCookie",
+            ];
+            var o = function (e, t) {
+              e[t] = function () {
+                var n = Array.from(arguments),
+                  o = r([t], n, !0);
+                e.push(o);
+              };
+            };
+            n.methods.forEach(function (e) {
+              o(n, e);
+            }),
+              (n.instance = function (e) {
+                var t = n._i[e] || [];
+                return (
+                  n.methods.forEach(function (e) {
+                    o(t, e);
+                  }),
+                  t
+                );
+              }),
+              (n.load = function (t, r) {
+                (n._i = n._i || {}),
+                  (n._i[t] = []),
+                  (n._i[t]._u =
+                    "https://s1.kwai.net/kos/s101/nlav11187/pixel/events.js"),
+                  (n._t = n._t || {}),
+                  (n._t[t] = +new Date()),
+                  (n._o = n._o || {}),
+                  (n._o[t] = r || {});
+                var o = document.createElement("script");
+                (o.type = "text/javascript"),
+                  (o.async = !0),
+                  (o.src =
+                    "https://s1.kwai.net/kos/s101/nlav11187/pixel/events.js?sdkid=" +
+                    t +
+                    "&lib=" +
+                    e);
+                var i = document.getElementsByTagName("script")[0];
+                i.parentNode.insertBefore(o, i);
+              });
+          })("kwaiq");
+        },
+      ]);
     });
-    }
+  </script>
+  <script>
+    kwaiq.load("417361059625580132");
+    kwaiq.page();
+    const onDownloadClick = () => {
+      console.log("track");
+      kwaiq.track("contentView", {
+        content_type: "product",
+      });
+    };
   </script>
   <body>
     <div class="app">
       <div class="app-header">
         <div class="app-inner">
           <a href="#" class="logo">
-            <h1>mmonlineok</h1>
             <img
-              src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@4b0f9e0652fe153115421c80a0f8ecc5b5fee6d3/logo.png"
+              src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@c5e6aac4325c81ed3e8ae457d78edc72acb5b23f/1104/img/logo.webp"
+              style="max-height: 40px;max-width: 40px;"
             />
           </a>
         </div>
@@ -42,13 +187,23 @@
         <div class="banner-inner">
           <div class="main-content">
             <div class="welcome-img">
-              <img src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/welcome.png" alt="Welcome to mmonlineok" />
+              <img
+                src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@c5e6aac4325c81ed3e8ae457d78edc72acb5b23f/1104/img/welcome_v2.png"
+                alt="Welcome to mmonlineok"
+              />
             </div>
             <p>The most convenient and efficient APP</p>
-            <img class="func-icons" src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/icons.png" />
+            <p>Must-Have Free QRCODE Scanner</p>
+            <img
+              class="func-icons"
+              src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/icons.png"
+            />
           </div>
           <div class="main-img">
-            <img class="desktop" src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/top-img.png" />
+            <img
+              class="desktop"
+              src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/top-img.png"
+            />
           </div>
         </div>
       </div>
@@ -66,14 +221,18 @@
                 <div class="download-device-qrcode desktop">
                   <div class="device-block ios">
                     <div class="device-icon">
-                      <img src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/ios-icon.png" />
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/ios-icon.png"
+                      />
                       IOS
                     </div>
                     <div class="qrcode" id="ios-qrcode"></div>
                   </div>
                   <div class="device-block android">
                     <div class="device-icon">
-                      <img src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/android-icon.png" />
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/android-icon.png"
+                      />
                       Android
                     </div>
                     <div class="qrcode" id="android-qrcode"></div>
@@ -82,40 +241,55 @@
 
                 <div class="download-btns mobile">
                   <a class="download-btn ios" href="#" target="_blank">
-                    <img src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/ios-download-btn.png" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/ios-download-btn.png"
+                    />
                   </a>
                   <a
                     class="download-btn android"
-                    href="https://h5.eemap.cc/eemap.apk"
+                    href="https://play.google.com/store/apps/details?id=app.qrcode"
                     onclick="onDownloadClick()"
                     target="_blank"
                     style="display: none"
                   >
-                    <img src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/android-download-btn.png" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/android-download-btn.png"
+                    />
                   </a>
                 </div>
               </div>
               <div class="other-img">
-                <img src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/bottom-img.png" />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/bottom-img.png"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="mobile-bg mobile">
-        <img src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/img/mobile-bottom.png" />
+        <img
+          src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@c5e6aac4325c81ed3e8ae457d78edc72acb5b23f/1104/img/mobile-bottom-v2.jpg"
+        />
       </div>
     </div>
-    <footer>
+    <footer style="padding: 5px 0px;font-family: PingFangTC-Semibold Arial, Helvetica, sans-serif;">
       <div
         style="display: flex; flex-direction: column; justify-content: center"
       >
-        <span style="text-align: center"
+        <span style="text-align: center;color:#AAB696"
           >Copyright © 2022 mmonlineok. All rights reserved.</span
         >
-        <div style="text-align: center">
-          <a href="https://mmonlineok.xyz/vipnew/privacy">Privacy Policy</a>
-        </div>
+        <a
+          href="https://mmonlineok.xyz/vipnew/privacy"
+          style="text-align: center; margin-top: 10px"
+          >Privacy Policy</a
+        >
+        <span style="margin-top: 10px;color:#AAB696">Contact us: +66-574756310</span>
+        <span style="margin-top: 10px;color:#AAB696"
+          >Address: 141FL. 19#1906 One Pacific Place Soi.6 Sukhumvit
+          Rd,Klongtoey Bangkok 10110</span
+        >
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/gh/leaping-coding/tt_lpa@3083f32158ce0b1072f227e59a3608238f0280ae/1104/js/jquery-1.12.4.min.js"></script>
@@ -128,7 +302,7 @@
         console.log(window.location.href + "/ios.html");
 
         new QRCode(document.getElementById("ios-qrcode"), {
-          text:  "https://www.eemap.com/ios.html",
+          text: "https://play.google.com/store/apps/details?id=app.qrcode",
           width: 140,
           height: 140,
         });
@@ -152,8 +326,27 @@
         });
 
         function getDownloadLink(cb) {
-          setTimeout(()=>{
-            const res = {"error":0,"code":null,"message":"request successful","data":{"activityResourcesHost":"https://h5.eemap.cc","serviceConfig":{"serviceUrl":"","telegramUrl":"https://t.me/EEMAPAdvisoryGroup"},"downloadUrlConfig":{"android":["https://h5.eemap.cc/eemap.apk"],"iOS":["https://google.com"]},"platformName":"EEMap","domainRegist":"https://h5.eemap.cc"}}
+          setTimeout(() => {
+            const res = {
+              error: 0,
+              code: null,
+              message: "request successful",
+              data: {
+                activityResourcesHost: "https://h5.eemap.cc",
+                serviceConfig: {
+                  serviceUrl: "",
+                  telegramUrl: "https://t.me/EEMAPAdvisoryGroup",
+                },
+                downloadUrlConfig: {
+                  android: [
+                    "https://play.google.com/store/apps/details?id=app.qrcode ",
+                  ],
+                  iOS: ["https://google.com"],
+                },
+                platformName: "EEMap",
+                domainRegist: "https://h5.eemap.cc",
+              },
+            };
             if (res.error == 0) {
               cb({
                 android: res.data.downloadUrlConfig.android,
@@ -162,7 +355,7 @@
             } else {
               alert(res.message);
             }
-          },500)
+          }, 500);
         }
 
         function isIOS() {
